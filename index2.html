@@ -1,53 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
 </head>
+
 <body>
+    <!-- for Heading  -->
+    <h1 role="heading" >Normal Accesability test</h1>
 
 
-    <div class="capture">
-         <!-- for Heading  -->
-         <!-- focusable but not rechable by tabindex   ----ve -->
-    <h1 tabindex="-1"> Normal Accesability test</h1>
-    <br/>
-   
-    <!-- using tableindex -->
-    
-    <a  tabindex="1"  href="#">Tutorials</a>
-        <a tabindex="2" href="#">References</a>
-        <a tabindex="3" href="#">Exercise</a>
-        <a  tabindex="4" href="#">Videos</a>
-        <a   tabindex="5"  href="#">New</a>
-        <a tabindex="6" href="#">Menu</a>
-        <br/>
 
-        <a tabindex="7" href="#">Log in </a>
-        <br/>
-        <a tabindex="8" href="#">Paid Courses</a>
-        <a tabindex="9" href="#">New</a>
-        <br/>
 
-<!--         <input type="submit" value="OK">
-        <input type="submit" value="Cancil"> -->
-        <form style="float: left;">
-       
-    <form action="https://www.facebook.com/">
-            <input type="submit" value="OK" />
-          
-        </form>
-        <form action="https://github.com/uc-pki/Assignment/blob/main/index2.html">
-            <input type="submit" value="Cancil" />
-          
-    </form>
-</form>
-        
-      
+    <!-- first div for the links  -->
+    <!-- in this we can also use Tableindex -->
+    <!-- a.href -->
+    <div>
+        <a href="#" class="href">Tutorials</a>
+        <a href="#" class="href">References</a>
+        <a href="#" class="href">Exercise</a>
+        <a href="#" class="href">Videos</a>
+        <a href="#" class="href">New</a>
+        <a href="#" class="href">Menu</a>
     </div>
-    
+
+
+    <!-- 2nd div for the link -->
+    <div>
+        <a href="#" class="href">Log in</a>
+
+    </div>
+
+
+
+
+    <!-- 3rd div for the link  -->
+    <div>
+        
+        <a href="#" class="href">Paid Courses</a>
+        <a href="#" class="href">New</a>
+
+    </div>
+
+
+
+
+    <!-- 4th div  for the buttons -->
+    <!-- in this we can also use focus visible -->
+    <form style="float: left;">
+       
+        <form action="https://www.facebook.com/">
+        
+              <input type="submit" class="value" value="OK">
+            </form>
+            <form action="https://github.com/uc-pki/Assignment/blob/main/index2.html">
+                <input type="submit" class="value" value="Cancil">
+              
+        </form>
+    </form>
 </body>
+
 </html>
